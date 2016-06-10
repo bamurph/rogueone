@@ -23,6 +23,5 @@ func functionForKeyDown(theEvent: NSEvent) -> () {
         print("Up")
     default:
         print(key.description)
-
     }
 }

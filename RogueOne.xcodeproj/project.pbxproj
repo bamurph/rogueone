@@ -17,6 +17,8 @@
 		B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204051D0B2057006BBC60 /* KeyboardInput.swift */; };
 		B5C204081D0B2327006BBC60 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204071D0B2327006BBC60 /* Movement.swift */; };
 		B5C2040B1D0B2620006BBC60 /* IntegerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */; };
+		B5C2040D1D0B2AA3006BBC60 /* Positionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */; };
+		B5C2040F1D0B2AFC006BBC60 /* Movable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040E1D0B2AFC006BBC60 /* Movable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B5C204051D0B2057006BBC60 /* KeyboardInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInput.swift; sourceTree = "<group>"; };
 		B5C204071D0B2327006BBC60 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
 		B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerPoint.swift; sourceTree = "<group>"; };
+		B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Positionable.swift; sourceTree = "<group>"; };
+		B5C2040E1D0B2AFC006BBC60 /* Movable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		B5C203CC1D0B1C1A006BBC60 = {
 			isa = PBXGroup;
 			children = (
+				B5C2040E1D0B2AFC006BBC60 /* Movable.swift */,
 				B5C203D71D0B1C1A006BBC60 /* RogueOne */,
 				B5C203EB1D0B1C1A006BBC60 /* RogueOneTests */,
 				B5C203F61D0B1C1A006BBC60 /* RogueOneUITests */,
@@ -107,6 +112,7 @@
 				B5C203DA1D0B1C1A006BBC60 /* GameScene.swift */,
 				B5C204051D0B2057006BBC60 /* KeyboardInput.swift */,
 				B5C204071D0B2327006BBC60 /* Movement.swift */,
+				B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */,
 				B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */,
 				B5C203DC1D0B1C1A006BBC60 /* GameScene.sks */,
 				B5C203DE1D0B1C1A006BBC60 /* Assets.xcassets */,
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C2040F1D0B2AFC006BBC60 /* Movable.swift in Sources */,
+				B5C2040D1D0B2AA3006BBC60 /* Positionable.swift in Sources */,
 				B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */,
 				B5C2040B1D0B2620006BBC60 /* IntegerPoint.swift in Sources */,
 				B5C204081D0B2327006BBC60 /* Movement.swift in Sources */,

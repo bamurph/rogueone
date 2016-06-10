@@ -24,3 +24,5 @@ func move(position: Point, direction: Direction, distance: Int) -> Point {
         return Point(x: position.x, y: position.y + distance)
     }
 }
+
+
