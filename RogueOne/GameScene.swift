@@ -9,8 +9,19 @@
 import SpriteKit
 
 class GameScene: SKScene {
+
+    var entities: SKNode?
+    var characterNode: SKLabelNode?
+
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
+        guard let entities = childNodeWithName("Entities") else {
+            fatalError("Could not find entities node")
+        }
+        guard let characterNode = entities.childNodeWithName("Character") else {
+            fatalError("Could not find character node")
+        }
+
+
 
     }
     

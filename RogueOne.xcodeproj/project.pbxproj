@@ -15,10 +15,10 @@
 		B5C203ED1D0B1C1A006BBC60 /* RogueOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C203EC1D0B1C1A006BBC60 /* RogueOneTests.swift */; };
 		B5C203F81D0B1C1A006BBC60 /* RogueOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C203F71D0B1C1A006BBC60 /* RogueOneUITests.swift */; };
 		B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204051D0B2057006BBC60 /* KeyboardInput.swift */; };
-		B5C204081D0B2327006BBC60 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204071D0B2327006BBC60 /* Movement.swift */; };
 		B5C2040B1D0B2620006BBC60 /* IntegerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */; };
 		B5C2040D1D0B2AA3006BBC60 /* Positionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */; };
 		B5C2040F1D0B2AFC006BBC60 /* Movable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2040E1D0B2AFC006BBC60 /* Movable.swift */; };
+		B5C204151D0B4EE7006BBC60 /* SpriteRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204141D0B4EE7006BBC60 /* SpriteRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		B5C203F71D0B1C1A006BBC60 /* RogueOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueOneUITests.swift; sourceTree = "<group>"; };
 		B5C203F91D0B1C1A006BBC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C204051D0B2057006BBC60 /* KeyboardInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInput.swift; sourceTree = "<group>"; };
-		B5C204071D0B2327006BBC60 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
 		B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerPoint.swift; sourceTree = "<group>"; };
 		B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Positionable.swift; sourceTree = "<group>"; };
-		B5C2040E1D0B2AFC006BBC60 /* Movable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movable.swift; sourceTree = "<group>"; };
+		B5C2040E1D0B2AFC006BBC60 /* Movable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movable.swift; path = ../Movable.swift; sourceTree = "<group>"; };
+		B5C204141D0B4EE7006BBC60 /* SpriteRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 		B5C203CC1D0B1C1A006BBC60 = {
 			isa = PBXGroup;
 			children = (
-				B5C2040E1D0B2AFC006BBC60 /* Movable.swift */,
 				B5C203D71D0B1C1A006BBC60 /* RogueOne */,
 				B5C203EB1D0B1C1A006BBC60 /* RogueOneTests */,
 				B5C203F61D0B1C1A006BBC60 /* RogueOneUITests */,
@@ -110,10 +109,9 @@
 			children = (
 				B5C203D81D0B1C1A006BBC60 /* AppDelegate.swift */,
 				B5C203DA1D0B1C1A006BBC60 /* GameScene.swift */,
-				B5C204051D0B2057006BBC60 /* KeyboardInput.swift */,
-				B5C204071D0B2327006BBC60 /* Movement.swift */,
-				B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */,
-				B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */,
+				B5C204111D0B2BF0006BBC60 /* Functions */,
+				B5C204101D0B2BE4006BBC60 /* Protocols */,
+				B5C204121D0B2C00006BBC60 /* Types */,
 				B5C203DC1D0B1C1A006BBC60 /* GameScene.sks */,
 				B5C203DE1D0B1C1A006BBC60 /* Assets.xcassets */,
 				B5C203E01D0B1C1A006BBC60 /* MainMenu.xib */,
@@ -138,6 +136,40 @@
 				B5C203F91D0B1C1A006BBC60 /* Info.plist */,
 			);
 			path = RogueOneUITests;
+			sourceTree = "<group>";
+		};
+		B5C204101D0B2BE4006BBC60 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2040E1D0B2AFC006BBC60 /* Movable.swift */,
+				B5C2040C1D0B2AA3006BBC60 /* Positionable.swift */,
+				B5C204141D0B4EE7006BBC60 /* SpriteRepresentable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B5C204111D0B2BF0006BBC60 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B5C204131D0B2C50006BBC60 /* IO */,
+				B5C204051D0B2057006BBC60 /* KeyboardInput.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		B5C204121D0B2C00006BBC60 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		B5C204131D0B2C50006BBC60 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +305,9 @@
 			files = (
 				B5C2040F1D0B2AFC006BBC60 /* Movable.swift in Sources */,
 				B5C2040D1D0B2AA3006BBC60 /* Positionable.swift in Sources */,
+				B5C204151D0B4EE7006BBC60 /* SpriteRepresentable.swift in Sources */,
 				B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */,
 				B5C2040B1D0B2620006BBC60 /* IntegerPoint.swift in Sources */,
-				B5C204081D0B2327006BBC60 /* Movement.swift in Sources */,
 				B5C203DB1D0B1C1A006BBC60 /* GameScene.swift in Sources */,
 				B5C203D91D0B1C1A006BBC60 /* AppDelegate.swift in Sources */,
 			);
