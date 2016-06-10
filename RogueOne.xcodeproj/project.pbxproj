@@ -14,6 +14,8 @@
 		B5C203E21D0B1C1A006BBC60 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C203E01D0B1C1A006BBC60 /* MainMenu.xib */; };
 		B5C203ED1D0B1C1A006BBC60 /* RogueOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C203EC1D0B1C1A006BBC60 /* RogueOneTests.swift */; };
 		B5C203F81D0B1C1A006BBC60 /* RogueOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C203F71D0B1C1A006BBC60 /* RogueOneUITests.swift */; };
+		B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204051D0B2057006BBC60 /* KeyboardInput.swift */; };
+		B5C204081D0B2327006BBC60 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204071D0B2327006BBC60 /* Movement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B5C203F31D0B1C1A006BBC60 /* RogueOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogueOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C203F71D0B1C1A006BBC60 /* RogueOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueOneUITests.swift; sourceTree = "<group>"; };
 		B5C203F91D0B1C1A006BBC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C204051D0B2057006BBC60 /* KeyboardInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInput.swift; sourceTree = "<group>"; };
+		B5C204071D0B2327006BBC60 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B5C203D81D0B1C1A006BBC60 /* AppDelegate.swift */,
 				B5C203DA1D0B1C1A006BBC60 /* GameScene.swift */,
+				B5C204051D0B2057006BBC60 /* KeyboardInput.swift */,
+				B5C204071D0B2327006BBC60 /* Movement.swift */,
 				B5C203DC1D0B1C1A006BBC60 /* GameScene.sks */,
 				B5C203DE1D0B1C1A006BBC60 /* Assets.xcassets */,
 				B5C203E01D0B1C1A006BBC60 /* MainMenu.xib */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C204061D0B2057006BBC60 /* KeyboardInput.swift in Sources */,
+				B5C204081D0B2327006BBC60 /* Movement.swift in Sources */,
 				B5C203DB1D0B1C1A006BBC60 /* GameScene.swift in Sources */,
 				B5C203D91D0B1C1A006BBC60 /* AppDelegate.swift in Sources */,
 			);
