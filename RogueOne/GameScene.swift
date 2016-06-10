@@ -10,6 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene {
 
+    var pc: PC?
     var entities: SKNode?
     var characterNode: SKLabelNode?
 
@@ -21,7 +22,7 @@ class GameScene: SKScene {
             fatalError("Could not find character node")
         }
 
-
+        pc = PC(node: characterNode, position: Point(x: 0, y: 0))
 
     }
     
@@ -33,7 +34,7 @@ class GameScene: SKScene {
 
 
     override func keyDown(theEvent: NSEvent) {
-        functionForKeyDown(theEvent)
+        functionForKeyDown(theEvent, entity: &pc)
     }
 
     override func update(currentTime: CFTimeInterval) {
