@@ -1,5 +1,5 @@
 //
-//  Positionable.swift
+//  Representative.swift
 //  RogueOne
 //
 //  Created by Ben Murphy on 6/10/16.
@@ -8,11 +8,7 @@
 
 import Foundation
 
-protocol Positionable {
-    var position: Point {get set}
+protocol Representative {
+    func move(direction: Direction, distance: Int)
 }
-
-
-
-
 

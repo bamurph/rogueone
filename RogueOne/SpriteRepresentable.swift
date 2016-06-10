@@ -11,4 +11,5 @@ import Foundation
 
 protocol SpriteRepresentable: Positionable {
     var node: SKNode {get set}
+    
 }
