@@ -29,7 +29,7 @@ extension Movable {
         case .Up:
             position = Point(x: position.x, y: position.y + distance)
         }
-
+        
         node.move(direction, distance: distance)
     }
 

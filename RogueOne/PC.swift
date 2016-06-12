@@ -9,19 +9,7 @@
 import Foundation
 import SpriteKit
 
-class PC: Movable, SpriteRepresentable {
+class PC: Entity {
 
-    var node: SKNode
-    var position: Point
-
-    init() {
-        self.position = Point(x: 0, y: 0)
-        self.node = SKNode.init()
-    }
-
-    init(node: SKNode, position: Point) {
-        self.node = node
-        self.position = position
-    }
 
 }

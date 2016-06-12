@@ -22,6 +22,7 @@
 		B5C204171D0B511C006BBC60 /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C204161D0B511C006BBC60 /* PC.swift */; };
 		B5C2041B1D0B589E006BBC60 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2041A1D0B589E006BBC60 /* Representative.swift */; };
 		B5C2041D1D0B5977006BBC60 /* SKNode+Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2041C1D0B5977006BBC60 /* SKNode+Representative.swift */; };
+		B5C204201D0B7C88006BBC60 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2041F1D0B7C88006BBC60 /* Entity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B5C204161D0B511C006BBC60 /* PC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
 		B5C2041A1D0B589E006BBC60 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Representative.swift; path = ../Representative.swift; sourceTree = "<group>"; };
 		B5C2041C1D0B5977006BBC60 /* SKNode+Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Representative.swift"; sourceTree = "<group>"; };
+		B5C2041F1D0B7C88006BBC60 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +171,7 @@
 			children = (
 				B5C2041C1D0B5977006BBC60 /* SKNode+Representative.swift */,
 				B5C2040A1D0B2620006BBC60 /* IntegerPoint.swift */,
-				B5C204161D0B511C006BBC60 /* PC.swift */,
+				B5C2041E1D0B7C77006BBC60 /* Entities */,
 			);
 			name = Types;
 			sourceTree = "<group>";
@@ -179,6 +181,15 @@
 			children = (
 			);
 			name = IO;
+			sourceTree = "<group>";
+		};
+		B5C2041E1D0B7C77006BBC60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B5C204161D0B511C006BBC60 /* PC.swift */,
+				B5C2041F1D0B7C88006BBC60 /* Entity.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +330,7 @@
 				B5C2040B1D0B2620006BBC60 /* IntegerPoint.swift in Sources */,
 				B5C203DB1D0B1C1A006BBC60 /* GameScene.swift in Sources */,
 				B5C203D91D0B1C1A006BBC60 /* AppDelegate.swift in Sources */,
+				B5C204201D0B7C88006BBC60 /* Entity.swift in Sources */,
 				B5C204171D0B511C006BBC60 /* PC.swift in Sources */,
 				B5C2041D1D0B5977006BBC60 /* SKNode+Representative.swift in Sources */,
 				B5C2041B1D0B589E006BBC60 /* Representative.swift in Sources */,
